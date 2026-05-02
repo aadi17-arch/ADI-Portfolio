@@ -1,0 +1,26 @@
+{
+  "name": "adi-portfolio",
+  "version": "1.0.0",
+  "description": "Premium Developer Portfolio",
+  "main": "js/main.js",
+  "scripts": {
+    "start": "npx live-server",
+    "format": "npx prettier --write \"**/*.{html,css,js}\"",
+    "lint": "npx eslint js/**/*.js"
+  },
+  "keywords": [
+    "portfolio",
+    "developer",
+    "frontend"
+  ],
+  "author": "ADI",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "live-server": "^1.2.2",
+    "prettier": "^3.0.0"
+  },
+  "dependencies": {
+    "sharp": "^0.34.5"
+  }
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Page Not Found | ADI's Portfolio</title>
+    <link rel="stylesheet" href="css/core.css">
+    <link rel="stylesheet" href="css/theme-refresh.css">
+    <style>
+        .error-container {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 2rem;
+            background: var(--color-bg-base);
+        }
+        .error-code {
+            font-size: clamp(8rem, 20vw, 12rem);
+            font-weight: 800;
+            line-height: 1;
+            margin-bottom: 1rem;
+            font-family: var(--font-display);
+        }
+        .error-message {
+            font-size: 1.5rem;
+            color: var(--color-text-muted);
+            margin-bottom: 2.5rem;
+            max-width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <div class="error-container">
+        <h1 class="error-code gradient-text">404</h1>
+        <p class="error-message">Oops! The page you're looking for has drifted into deep space. Let's get you back home.</p>
+        <a href="index.html" class="btn-primary">Back to Home</a>
+    </div>
+</body>
+</html>
